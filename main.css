@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  background-color: #222222;
+}
+
+#wrapper {
+  background-color: #eeeeee;
+  width: 800px;
+  text-align: left;
+  margin: 10px auto;
+  border: 1px solid grey;
+  padding: 20px;
+}
+
+#wrapper h1,
+#wrapper p {
+  margin: 10px 0;
+}
+
+#header h1 {
+  font-size: 2.5em;
+  margin-bottom: 2rem;
+}
+
+#header h1 a,
+.blog_post h2 a {
+  text-decoration: none;
+  color: black;
+}
+
+#menu {
+  list-style: none;
+  margin-bottom: 4px;
+}
+
+#menu li {
+  display: inline;
+}
+
+#menu li a {
+  border: 1px solid grey;
+  padding: 5px 10px;
+}
+
+#menu li a.active {
+  border: 2px solid grey;
+  background: #999999;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#footer {
+  text-align: right;
+  margin-top: 10px;
+}
+
+div#all_blogs {
+  border: 2px solid grey;
+  padding: 0 10px 10px 10px;
+}
+
+form {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+fieldset {
+  margin-top: 10px;
+  padding: 1rem;
+}
+
+fieldset input {
+  padding: 2px 4px;
+}
+
+fieldset textarea {
+  height: 10em;
+  width: 100%;
+  padding: 2px 4px;
+}
+
+legend {
+  margin-left: 1rem;
+}
+
+form fieldset p {
+  margin: 1rem 0;
+}
+
+form fieldset label {
+  display: block;
+}
+
+input#title {
+  width: 40em;
+}
+
+.blog_post {
+  margin-top: 10px;
+}
+
+.blog_post p {
+  margin-bottom: 15px;
+}
